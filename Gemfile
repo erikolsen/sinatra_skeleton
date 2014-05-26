@@ -16,6 +16,8 @@ gem 'activerecord'
 gem 'rake'
 
 gem 'shotgun'
+gem 'pry'
+
 #for use with has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 
