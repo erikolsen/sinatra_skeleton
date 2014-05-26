@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 # PostgreSQL driver
 gem 'pg'
@@ -16,6 +16,8 @@ gem 'activerecord'
 gem 'rake'
 
 gem 'shotgun'
+#for use with has_secure_password
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :test do
   gem 'faker'
